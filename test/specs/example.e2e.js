@@ -1,4 +1,4 @@
-    describe('test', () => {
+    describe.only('test', () => {
         xit('should detected if an element is clickable', function () {
             browser.url('https://webdriver.io')
             const blogButton = $('[href="/blog/"]');
@@ -39,7 +39,7 @@
 
 
         });
-        xit('should wait until', function () {
+        it('should wait until', function () {
             browser.newWindow("https://webdriver.io")
             browser.waitUntil(() => {
                 return $('[href="/blog/"]').isDisplayed();
