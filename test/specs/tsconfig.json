@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "lib": ["es2018"],
+    "types": ["@wdio/sync", "@wdio/mocha-framework", "node","@types/node","@types/faker","@wdio/cli","@types/chai"]
+  },
+  "exclude": [
+    "../../node_modules"
+  ]
+}
